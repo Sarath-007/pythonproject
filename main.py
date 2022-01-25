@@ -1,10 +1,16 @@
-#background
-import cv2
-cap=cv2.VideoCapture(0)
-while True:
-    ret,back=cap.read()
-    if ret:
-        cv2.imshow('background',back)
-        if cv2.waitKey(5)==ord('q'):
-            cv2.imwrite('image.jpg',back)
+# This is a sample Python script.
 
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
